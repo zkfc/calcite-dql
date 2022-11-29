@@ -8,7 +8,7 @@ import org.apache.calcite.adapter.mongodb.MongoSchemaFactory;
 
 /**
  * @author it.liu
- * @description calcite数据源执行容器
+ * @description calcite mongodb sql execute context
  * @date 2022/7/22
  */
 @Slf4j
