@@ -1,3 +1,4 @@
-# calcite-spring-boot-starter
-usage sql query mongodb,redis, or other datasource
-## mongdb has already supported
+usage calcite sql for datasource query support
+## mongdo module
+## calcite-spring-boot-starter module
+    
