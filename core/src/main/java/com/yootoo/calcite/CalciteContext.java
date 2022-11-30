@@ -56,7 +56,7 @@ public class CalciteContext {
 
     }
 
-    private void addSchema(CalciteConnection c){
+    protected void addSchema(CalciteConnection c){
         c.getRootSchema().add(name,schema);
     }
 

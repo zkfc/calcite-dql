@@ -18,6 +18,7 @@
         <module>mongodb</module>
         <module>calcite-spring-boot-starter</module>
         <module>core</module>
+        <module>json</module>
     </modules>
 
     <properties>
@@ -29,6 +30,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.checkerframework</groupId>
+            <artifactId>checker-qual</artifactId>
+            <version>3.5.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
